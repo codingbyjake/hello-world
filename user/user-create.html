@@ -9,7 +9,7 @@
     <link href="css/fetch.css" rel="stylesheet">
     <script src="js/fetch-api.js"></script>
     <script src="js/fetch-user.js"></script>
-    <script src="js/user-change.js"></script>
+    <script src="js/user-create.js"></script>
     <style>
         input, select{
             border-radius: 7px;
@@ -19,9 +19,9 @@
 <body onload="loaded()">
     <table class="table table-striped table-sm">
         <tbody>
-            <tr>
+            <tr hidden>
                 <td>Id</td>
-                <td><input type="number" id="pId" readonly></td>
+                <td><input type="number" id="pId"></td>
             </tr>
             <tr>
                 <td>Firstname</td>
@@ -35,7 +35,7 @@
                 <td>Username</td>
                 <td><input id="pUsername"></td>
             </tr>
-            <tr hidden>
+            <tr>
                 <td>Password</td>
                 <td><input id="pPassword"></td>
             </tr>
