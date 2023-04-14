@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script lang="javascript">
+        const clicked = () => {
+            console.log("The button was clicked")
+            let inputCtrl = document.getElementById("inp");
+            let val = inputCtrl.value;
+            let labelCtrl = document.getElementById("lbl");
+            labelCtrl.innerHTML = `<b>${val}</b>`;
+        }
+    </script>
+    <title>tutututorial</title>
+    <style>
+        #s1{
+            border: 1px solid red;
+            padding: 10px;
+            margin-right: 50px;
+            margin-left: 84px;
+        }
+        .l3{
+            color:green;
+        }
+        .italic{
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <input id="inp" value="ABC">
+    <button onclick="clicked()">Click Me!</button>
+    <label id="lbl"></label>
+    <p></p>
+    <span>line 1</span>
+    <span id="s1">line 2</span>
+    <span class="l3 italic">line 3</span>
+</body>
+</html>

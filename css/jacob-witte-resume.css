@@ -1,0 +1,57 @@
+body{
+    font: normal normal normal 16pt/20pt Roboto mono, Arial, sans-serif
+}
+h2 { 
+    color: #2542A3;
+    font-size:1.3em;
+    background-color:#F1DEAB;
+}
+#line{
+    color: #A3832C
+}
+table{
+    width: 100%;
+    border: 5px solid #2542A3
+}
+div {
+    color:black;
+}
+
+div2{
+    color:black;
+    font-weight: 200;
+    margin:0;
+}
+
+div3{
+    color: #718EF0;
+}
+.bold{
+    font-weight:600;
+}
+.SuperBold{
+    font-weight:900;
+}
+#edu{
+    margin:1px;
+    padding: 1px;
+    color: #718EF0;
+}
+.noMargin{
+    margin:0;
+}
+.DBlue{
+    color: #2542A3;
+}
+.MBlue{
+    color: #718EF0;
+}
+.LBlue{
+    color: #91ABFF;
+}
+.DBrown{
+    color: #A3832C;
+}
+.LBrown{
+    color: #F1DEAB;
+}

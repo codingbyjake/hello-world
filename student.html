@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <script src="js/student.js"></script>
+</head>
+<body onload="loaded()">
+    <div>
+        <input id="pName" placeholder="Student Name"> |
+        <input id="pLikeTopic" placeholder="Like Topic"> |
+        <input id="pDislikeTopic" placeholder="Dislike Topic"> |
+        <button onclick="add()">Add Sutdent</button>
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <td>Name</td>
+                <td>Like Topic</td>
+                <td>Dilike Topic</td>
+            </tr>
+        </thead>
+        <tbody id="tbody"></tbody>
+    </table>
+</body>
+</html>
